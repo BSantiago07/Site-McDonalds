@@ -1,0 +1,112 @@
+body {
+    background-image: url(../img/fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: Helvetica;
+    margin: 0px;
+}
+
+table {
+    background-color: white;
+    margin: auto;
+    width: 1200px;
+    border-collapse: collapse;
+    border: none;
+}
+
+table tr td {
+    padding: 10px;
+}
+
+h2 {
+    border-bottom: 10px solid #a10606;
+}
+
+#uf {
+    margin-right: 100px;
+}
+
+#header_box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#letreiro_box {
+    color: #F7B300;
+    -webkit-text-stroke-width: 0.60px;
+    -webkit-text-stroke-color: #a10606;
+    font-size: 23px;
+}
+
+#nav_box {
+    height: 40px;
+    background-color: #a10606;
+}
+
+#nav_box ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#nav_box li {
+    float: left;
+}
+
+#nav_box a {
+    padding: 21.5px;
+    text-decoration: none;
+    color: white;
+}
+
+#nav_box a.active {
+    background-color: #F7B300;
+    color: black;
+}
+
+#nav_box a:hover:not(.active) {
+    background-color: #F7B300;
+    color: black;
+    transition: 0.5s;
+}
+
+#image_box {
+    width: 450px;
+}
+
+.article_box p {
+    font-size: 18px;
+    text-align: justify;
+    padding: 10px;
+}
+
+button {
+    background-color: #F7B300;
+    padding: 10px;
+    border-radius: 10px;
+    border: 5px white dashed;
+    float: right;
+    font-size: 20px;
+    margin: 5px;
+}
+
+#botao_nume {
+    color: rgba(0, 0, 0, 0.808);
+    background-color: #f5d75e;
+}
+
+button:hover {
+    transition: 0.5s;
+    background-color: #f5d75e;
+}
+
+#footer_box {
+    text-align: center;
+    height: 50px;
+    background-color: #F7B300;
+}
